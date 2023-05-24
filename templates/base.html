@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first project</title>
+</head>
+<body>
+    <header>
+        <h1><a href="{% url 'home' %}">ASADBEK</a></h1>
+    </header>
+<div>
+    {% block content %}
+    {% endblock content %}
+</div>
+<footer>
+    <h4><a href="{% url 'post_new' %}">Yangi post yozish</a></h4>
+</footer>
+</body>
+</html>
